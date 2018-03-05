@@ -1,0 +1,91 @@
+#Gwen Weston - Implementing Compassion
+TED talk :)
+
+#Francisco Díaz - Move fast and keep your code quality
+talk about quality
+franciscodiaz.cl
+proud not about of number of lines but quality of code
+less quality->more bugs->less productivity
+quality:
+0 good definition of requirements
+1 less bugs
+2 speed addinng new features
+
+flat hierarchy is a lie (informal leadership)
+manager facilitates but not make decisions by his own, team makes decisions
+rely on async tools (slack)
+work in the office like you're working remotely
+teams are not important than projects -> form projects around teams
+good team:
+1 small
+2 share knowledge (and cross teams). study groups
+3 pull request and code review (swift lint, automate style)
+4 xcode templates in repo
+
+SAY NO! -> be professional
+
+increase productivity means increase quality
+
+#Martijn Walraven - Strong typing from the server to the UI with GraphQL
+GraphQL
+share code between server and client (mobile app)
+REST is good, but it costs (time) - example with github API
+"why would we let server decide what data to return?" > solution GraphQL
+one endpoint, request by sending query
+you get the data you only need
+SCHEMA strongly typed self-documented contract between server and client. provided by the server (data models)
+
+tool: GraphiQL https://github.com/graphql/graphiql
+www.graphql.org
+it's opensourced
+you can reuse queries (`fragment`)
+schema changes must be backward compatible!!!
+no need to different API versions
+every field in schema is a function() on the server
+
+##client side
+swift library, strong typed
+https://github.com/apollographql/apollo-ios
+Query models instead of business object models
+
+caching:
+normalized caching, keeping query results consistent
+
+one-way data flow:
+mutations
+optimistic updates
+real-time updates
+
+shopify, NY Times, Airbnb
+
+
+
+#Olivier Halligon - Code Generation in Swift — Gain time type safety and more!
+http://tiny.cc/uikonf-codegen
+https://github.com/SwiftGen
+swiftgen - generate code from resources
+swiftgen templates
+autocompletion, type-safety, customization, automaintance
+
+Sourcery - generate code from code
+ex.: equatable implementation
+
+
+#Sarah E Olson - Developing Empathy
+how to create apps users love
+
+
+#Brandon Williams & Lisa Luo - Anything you can do, I can do better
+https://github.com/kickstarter/ios-oss
+https://github.com/kickstarter/android-oss
+
+
+#Mischa Hildebrand - Auto Layout - From Trailing to Leading
+layout:
+what to draw
+where to drow
+but not how to draw
+
+#Sommer Panage - Accessibility - iOS for All
+
+#Chris Eidhof & Florian Kugler - Intermediate Types

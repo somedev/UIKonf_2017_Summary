@@ -1,0 +1,71 @@
+#Cate Huston - YOLO Releases Considered Harmful - Running An Effective Mobile Engineering Team
+
+#Maciej Piotrowski - Review All The Things!
+swifting.io
+code review is like review music
+code review
+1. ego effect - do best at work. someone would review you
+2. good culture - finding defects in positive way (everyone makes mistakes and it's normal. don't blame each other)
+23andme.com/start
+why review:
+ learn
+ improve
+ reduce 'bus factor'
+
+#Marcel Weiher - High Performance App Architecture
+Microsoft
+book "ios and macos perfomance tuning"
+Components + connectors = Architecture
+styles:
+call/return
+pipe/filter
+event
+...
+
+#premature optimization is the root of all evil
+in 97% we can ignore effifiency, dont put all resources for that 3%
+
+##call/return
+   photos about `+description();` method
+   recursive call on NSMutable array
+other examples: JSON, plist, XML parsing
+alternative: pipe/filter architecture (see photos)
+
+layering -> hexagonal arch (see photo)
+
+transport app, data in special format to SQL and use it in Core Data
+But:
+simple solution -> Application Model first (do not use core data or sql)
+don't think about technology stack first - think about model and architecture will come from the model
+
+Thomas Visser - Reactive Programming From Scratch
+https://t.co/QLwdBbSpfp
+basics of react programming
+
+photofinish
+work with a sequence
+everything is a sequence (see photo)
+for async iterator is not the best way, use observer (just callback)
+https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+
+
+
+#Frank Rausch - Good Typography, Better Apps
+
+
+#Andreas Oetjen - Unsophisticated Software Development
+
+
+
+
+#Rob Napier - Learning From Our Elders - Applying functional insights without losing Swift
+algebra
+composition
+  stronger types - fewer tests
+  "stringly typing" use dictionary instead of object/struct
+
+#TJ Usiyan - Re:Programming Language
+1. early abstraction
+2. self/identity
+3. Complex Narrative
+4. Standing on the shoulders of giants
